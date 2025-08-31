@@ -11,12 +11,13 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     /* Modules */
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "module": "ES2022",
     "rootDir": "src",
     /* Emit */
     "declaration": true,
-    "inlineSourceMap": true,
     "outDir": "dist",
     /* JavaScript Support */
     "allowJs": true,

@@ -1,6 +1,7 @@
 import json from '@rollup/plugin-json'
 import resolve from '@rollup/plugin-node-resolve'
 import terser from '@rollup/plugin-terser'
+import typescript from '@rollup/plugin-typescript'
 import { default as swc } from '@rollup/plugin-swc'
 import { readFileSync } from 'fs'
 
@@ -28,6 +29,12 @@ const plugins = (minify) => [
     sourceMaps: true,
   }),
   terser(),
+  typescript({
+    tsconfig: "./tsconfig.build.json",
+    declaration: true,
+    declarationDir: 'dist',
+    sourceMap: false,
+  }),
 ]
 
 export default [

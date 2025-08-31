@@ -1,5 +1,5 @@
 import { version } from "../package.json"
-import type { ChartType } from "chart.js";
+import type { ChartType, Chart } from "chart.js";
 
 export const PluginPlaceholder = {
     id: "placeholder",
