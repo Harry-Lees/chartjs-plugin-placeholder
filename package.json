@@ -30,7 +30,7 @@
     "@rollup/plugin-swc": "^0.4.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.4",
-    "eslint": "^9.34.0",
+    "eslint": "^9.37.0",
     "eslint-plugin-prettier": "^5.5.4",
     "prettier": "^3.6.2",
     "rollup": "^4.49.0",
