@@ -35,7 +35,7 @@
     "prettier": "^3.6.2",
     "rollup": "^4.49.0",
     "tslib": "^2.8.1",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "chart.js": ">=4.0.0"
